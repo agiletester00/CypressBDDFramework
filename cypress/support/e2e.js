@@ -14,7 +14,11 @@
 // ***********************************************************
 
 // Import commands.js using ES2015 syntax:
-import './commands'
-import 'cypress-cucumber-preprocessor';
-import "@badeball/cypress-cucumber-preprocessor/support";
-require('@badeball/cypress-cucumber-preprocessor');
+import './commands';
+// import 'cypress-cucumber-preprocessor';
+// import "@badeball/cypress-cucumber-preprocessor/support";
+// require('@badeball/cypress-cucumber-preprocessor');
+import '@badeball/cypress-cucumber-preprocessor';
+import 'cypress-mochawesome-reporter/register';
+import '@faker-js/faker';
+import 'cypress-iframe'; 
