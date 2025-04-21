@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-feature;sample-scenario",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Sample Scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I navigate to Google",
+            "match": {
+              "location": "cypress/e2e/BDD/Example1/example1.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 4,
+            "name": "I validate the title",
+            "match": {
+              "location": "cypress/e2e/BDD/Example1/example1.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sample Feature",
+    "tags": [],
+    "uri": "cypress\\e2e\\BDD\\Example1.feature"
+  }
+]

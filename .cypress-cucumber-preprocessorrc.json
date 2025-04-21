@@ -1,4 +1,5 @@
 {
     "nonGlobalStepDefinitions": true,
-    "stepDefinitions": "cypress/e2e/BDD/StepDefinitions/*.js"
+    "stepDefinitions": "cypress/e2e/BDD/../*.js"
+  
 }
