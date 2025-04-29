@@ -36,7 +36,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   // Usage: cy.task('queryDb', query)
   
-  // projectId: "xxxxx",//get it from running cloud config from cloud
+   projectId: "xxxxx",//get it from running cloud config from cloud
   env :{
     // url : any url,
     db:{
