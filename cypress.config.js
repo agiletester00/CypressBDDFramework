@@ -14,6 +14,7 @@ const mysql = require("mysql");
 async function setupNodeEvents(on, config) {
   // require('cypress-mochawesome-reporter/plugin')(on);
   // This is required for the preprocessor to be able to generate JSON reports after each run, and more,
+  // await addCucumberPreprocessorPlugin(on, config); //correct one
   await addCucumberPreprocessorPlugin(on, config);
 
   on("file:preprocessor",
@@ -36,7 +37,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   // Usage: cy.task('queryDb', query)
   
-   projectId: "xxxxx",//get it from running cloud config from cloud
+  //  projectId: "xxxxx",//get it from running cloud config from cloud
   env :{
     // url : any url,
     db:{

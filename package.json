@@ -6,15 +6,12 @@
   "scripts": {
     "test": "npx cypress run"
   },
-
   "cypress-cucumber-preprocessor": {
-      "json": {
-        "enabled": true,
-        "output": "cypress/cucumberReports/results.json"
-      }
-    },
-
-
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumberReports/results.json"
+    }
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -27,5 +24,8 @@
     "cypress-mochawesome-reporter": "^3.8.2",
     "multiple-cucumber-html-reporter": "^3.9.2",
     "mysql": "^2.18.1"
+  },
+  "dependencies": {
+    "@cucumber/gherkin": "^32.1.0"
   }
 }
