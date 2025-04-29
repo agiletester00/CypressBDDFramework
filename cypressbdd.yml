@@ -48,7 +48,7 @@ jobs:
         with:
           name: cypress-artifacts
           path: |
-            cypress/cucumberReports/
+            cypress/reports/
             cypress/screenshots/
             cypress/videos/
           retention-days: 30
