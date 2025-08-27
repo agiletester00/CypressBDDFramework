@@ -3,6 +3,7 @@ Feature: Sample Feature
         Given I navigate to Google
         Then I validate the title
 
-        Scenario: Sample Scenarios
+        Scenario: Sample Scenarios two
         Given I navigate to Google
-        Then I validate the title
+        Then I validate the 
+        
