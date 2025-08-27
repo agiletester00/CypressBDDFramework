@@ -5,5 +5,5 @@ Feature: Sample Feature
 
         Scenario: Sample Scenarios two
         Given I navigate to Google
-        Then I validate the 
+        Then I validate the title
         
